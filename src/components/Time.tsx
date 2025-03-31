@@ -19,7 +19,7 @@ const Time = () => {
   };
   return (
     <motion.div
-      className="text-amber-400 text-9xl font-bold flex gap-2 font-michroma"
+      className="text-amber-400 text-8xl font-bold flex gap-2 font-michroma"
       animate={{ opacity: [0.8, 1, 0.8] }}
       transition={{ duration: 1, repeat: Infinity }}
     >

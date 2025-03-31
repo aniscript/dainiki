@@ -8,7 +8,7 @@ const Dashboard = () => {
   return (
     <Layout>
       <Header />
-      <section className="flex flex-col items-center">
+      <section className="flex flex-col items-center gap-4">
         <Time />
         <DateToday />
       </section>

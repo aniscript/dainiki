@@ -9,7 +9,7 @@ const DateToday = () => {
     return () => clearInterval(interval);
   }, []);
   return (
-    <div className="text-4xl text-gray-500 ">
+    <div className="text-4xl text-gray-500 font-michroma">
       {time.toLocaleDateString(undefined, {
         weekday: "long",
         year: "numeric",
