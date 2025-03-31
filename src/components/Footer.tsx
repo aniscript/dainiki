@@ -5,10 +5,10 @@ const Footer = () => {
   return (
     <div className="absolute bottom-0 left-0">
       <div className="flex justify-between items-center w-screen py-4 px-6">
-        <div>
+        <div className="flex-2">
           <Quotes />
         </div>
-        <section className="flex gap-2">
+        <section className="flex flex-1 gap-2 justify-end">
           <ListTodo />
           <Music />
         </section>
